@@ -1,0 +1,133 @@
+*, *::after, 
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.CV-skills, .CV-info, .CV-cert{
+    
+}
+
+.CV-cert h4, .Education h4, 
+.personal-data h4{
+    margin-bottom: 0.5rem;
+}
+
+.main-container{
+    margin-top: 10px;
+}
+
+.header{
+    display: flex;
+    margin: 0em 5rem;
+}
+
+.CV-info{
+    flex: 1 1 30%;
+    padding: 1rem 2rem;
+}
+
+.CV-name{
+    margin-bottom: 1rem;
+}
+
+.CV-tel, .CV-mail, .CV-address{
+    margin-bottom: 0.3rem;
+}
+
+.CV-obj{
+    flex: 1 1 70%;
+    padding: 1em 1em;
+}
+
+.CV-obj h4{
+    margin-bottom: 1em;
+}
+
+.CV-obj p{
+    line-height: 23px;
+}
+
+.main-container{
+    display: flex;
+    margin: 0em 5rem;
+}
+
+.left-section{
+    flex: 1 1 30%;
+    padding: 1rem 2rem;
+}
+
+.CV-skills{
+    padding: 1rem 0rem;
+}
+
+.CV-skills h4{
+    margin-bottom: 0.5rem;
+ }
+
+.CV-skills li{
+    list-style: none;
+    line-height: 25px;
+}
+
+.CV-skills li:nth-child(even){
+    font-weight: bold;
+}
+
+.personal-data{
+    padding: 1rem 0rem;
+}
+
+.personal-data p{
+    line-height: 23px;
+}
+
+.Education{
+    padding: 1rem 0rem;
+}
+.Education p{
+    line-height: 23px;
+}
+
+.CV-cert p{
+    margin-bottom: 0.3rem;
+}
+
+.right-section{
+    flex: 1 1 70%;
+    padding: 1rem 1rem;
+}
+
+.CV-exp h2{
+    margin-bottom: 1rem;
+}
+
+.EXP-1 h3, .EXP-1 p, .EXP-1 h4{
+    margin-bottom: 0.3rem;
+}
+
+.EXP-1 li{
+    line-height: 23px;
+}
+
+.EXP-2 h3, .EXP-2 p, .EXP-2 h4{
+    margin-bottom: 0.3rem;
+}
+
+.EXP-2 li{
+    line-height: 23px;
+}
+
+.EXP-3 h3, .EXP-3 p, .EXP-3 h4{
+    margin-bottom: 0.3rem;
+}
+
+.EXP-3 li{
+    line-height: 23px;
+}
+
+.EXP-1, .EXP-2, .EXP-3{
+    margin-bottom: 0.8rem;
+}
